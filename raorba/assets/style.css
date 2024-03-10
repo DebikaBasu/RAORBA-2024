@@ -1,0 +1,646 @@
+* {
+    outline: 0;
+    border: 0;
+    font-family: Inter, sans-serif
+}
+
+.loader {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 1000;
+    background-color: #d3ebee;
+    text-align: center;
+}
+
+.img-load {
+    width: 110px;
+    height: auto;
+    top: 50%;
+    transform: translate(0, -50%);
+    transform: -webkit-translate(0, -50%);
+    transform: -moz-translate(0, -50%);
+    transform: -ms-translate(0, -50%);
+    position: relative;
+    margin: 0 auto
+}
+
+.site-logo {
+    color: #fff;
+    font-size: 25px
+}
+
+nav {
+    background-color: #021538;
+}
+
+.nav-content {
+    justify-content: space-between
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0
+}
+
+.menu ul li {
+    display: inline-block;
+    margin: 0 10px
+}
+
+.menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 55px
+}
+
+li.nav-item.selected {
+    border-bottom: 3px solid #fff
+}
+
+.site-logo span {
+    font-size: 12px;
+    padding-left: 7px
+}
+
+main {
+    margin-top: 54px
+}
+
+.intro {
+    position: relative;
+    background-image: url(../assets/instructions-log.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.intro::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0.5); 
+}
+
+.raorba-logo {
+    width: 240px;
+    filter: brightness(80%);
+}
+
+.bvb-logo {
+    width: 200px;
+    margin-bottom: 30px;
+    position: absolute; 
+    left: -10px; 
+    filter: brightness(180%) contrast(180%); 
+}
+
+.intro h1 {
+    font-weight: 400
+}
+
+.intro h1 span {
+    font-weight: 600;
+    color: #0084e3
+}
+
+.started {
+    margin: 60px 0
+}
+
+.started p {
+    font-size: 23px;
+    color: #0084e3
+}
+
+a.btn-started {
+    background-color: #021538;;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 7px;
+    font-size: 18px;
+    font-weight: 600
+}
+
+.contact,
+.count-wrap {
+    background-color: #021538;
+    overflow: hidden;
+    position: relative
+}
+
+.count-wrap h1 {
+    font-size: 35px;
+    font-weight: 300
+}
+
+.confrence {
+    display: inline-block;
+    padding: 75px 0
+}
+
+.counts {
+    padding-top: 25px;
+    width: 25%;
+    text-align: center;
+    margin-left: 2.2rem;
+}
+
+.start-count {
+    justify-content: space-between
+}
+
+.counts:first-child {
+    padding-left: 0
+}
+
+.counts span {
+    font-size: 90px;
+    color: #fff;
+    font-weight: 300;
+}
+
+.counts p {
+    font-size: 22px;
+    text-align: center;
+    text-transform: uppercase
+}
+
+.conf-img {
+    position: absolute;
+    width: 41%;
+    height: 100%;
+    top: 0;
+    right: 0
+}
+
+.conf-img img {
+    object-fit: cover;
+    height: 100%
+}
+
+.com-pad {
+    padding: 40px 0
+}
+
+.sub-heading {
+    border-bottom: 2px solid #021538;;
+    padding-bottom: 15px
+}
+
+.sub-heading h2 {
+    color: #021538;
+}
+
+.easy-chair {
+    display: flex;
+    align-items: center;
+    padding-left: 72px
+}
+
+.easy-chair h3 {
+    color: #021538;;
+    font-weight: 600;
+    padding-right: 10px
+}
+
+.easy-chair span img {
+    width: 180px
+}
+
+.bg-blue {
+    background-color: #d3ebee
+}
+
+.bold-blue {
+    color: #021538;
+}
+
+.bullet {
+    position: relative;
+    margin-left: 7px;
+    padding-left: 35px
+}
+
+.bullet:before {
+    content: '';
+    position: absolute;
+    background-image: url(../assets/bullet.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    top: 1px;
+    left: -5px;
+    width: 30px;
+    height: 20px
+}
+
+.themes {
+    background-image: url(../image/theme-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+.themes ul li {
+    color: #021538;
+    position: relative;
+    list-style-type: none
+}
+
+.themes ul li:before {
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: -15px;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background: #021538;
+}
+
+.contact .sub-heading h2 {
+    color: #fbf8e2
+}
+
+.contact .sub-heading {
+    border-bottom: 2px solid #fbf8e2
+}
+
+table.tbl-regs th {
+    background: #ebecec;
+    color: #021538;
+    text-align: center;
+    border: 1px solid #fff
+}
+
+table.tbl-regs th:first-child {
+    background: #fbf8e2
+}
+
+.tbl-regs tr.head-title td,
+.tbl-regs tr.head-title th {
+    background: #021538;
+    border: 1px solid #fff;
+    color: #fff;
+    font-weight: 500;
+    text-align: center
+}
+
+.tbl-regs tr.head-title td:nth-child(even),
+.tbl-regs tr.head-title th:nth-child(even) {
+    background: #466f81
+}
+
+.tbl-regs tr td {
+    background: #ebecec;
+    text-align: center;
+    border: 1px solid #fff
+}
+
+.tbl-regs tr td:nth-child(even) {
+    background: #f5f5f5
+}
+
+.tbl-regs tr.head-title th {
+    background: #4ca9eb;
+    border: 1px solid #fff;
+    color: #fff;
+    font-weight: 500;
+    text-align: center
+}
+
+@media only screen and (min-width:1600px) {
+
+    .intro h1 span,
+    .intro h1 strong {
+        font-weight: 800
+    }
+
+    .started p b {
+        font-weight: 900
+    }
+
+    a.btn-started {
+        font-size: 21px
+    }
+
+    .count-wrap h1 {
+        font-size: 37px
+    }
+
+    .sub-heading {
+        border-bottom: 1px solid #55aeee
+    }
+
+    .sub-heading h2 {
+        font-size: 40px;
+        font-weight: 700
+    }
+
+    .counts span {
+        font-size: 95px;
+        line-height: normal
+    }
+
+    .confrence {
+        padding: 115px 0
+    }
+
+    .com-pad {
+        padding: 75px 0
+    }
+
+    .themes ul li:before {
+        top: 10px
+    }
+
+    section.com-pad p {
+        font-size: 20px
+    }
+
+    .committee strong,
+    section.themes div ul li span {
+        font-size: 21px
+    }
+
+    .bullet:before {
+        background-size: 42px;
+        top: 1px;
+        left: -7px;
+        width: 42px;
+        height: 25px
+    }
+
+    .bullet {
+        padding-left: 45px
+    }
+
+    table.table.tbl-regs {
+        font-size: 20px
+    }
+
+    .easy-chair span img {
+        width: 200px;
+    }
+}
+
+@media only screen and (min-width:992px) {
+    div.mob-menu {
+        display: none
+    }
+}
+
+@media only screen and (max-width:1198px) {
+    .nav-content {
+        justify-content: center
+    }
+
+    .intro h1 {
+        font-size: 35px
+    }
+
+    .count-wrap h1 {
+        font-size: 30px
+    }
+
+    .counts span {
+        font-size: 74px
+    }
+
+    .counts p {
+        font-size: 16px
+    }
+
+    .sub-heading img {
+        width: 50px
+    }
+
+    .easy-chair {
+        padding-left: 60px
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .site-logo {
+        color: #fff;
+        font-size: 25px;
+        width: auto;
+        margin: 5px auto
+    }
+
+    .hmb {
+        width: 45px;
+        height: 40px;
+        top: 5px;
+        position: relative;
+        -webkit-transform: rotate(0);
+        -moz-transform: rotate(0);
+        -o-transform: rotate(0);
+        transform: rotate(0);
+        -webkit-transition: .5s ease-in-out;
+        -moz-transition: .5s ease-in-out;
+        -o-transition: .5s ease-in-out;
+        transition: .5s ease-in-out;
+        cursor: pointer
+    }
+
+    .hmb span {
+        display: block;
+        position: absolute;
+        height: 3px;
+        width: 100%;
+        background: #fff;
+        border-radius: 9px;
+        opacity: 1;
+        left: 0;
+        -webkit-transform: rotate(0);
+        -moz-transform: rotate(0);
+        -o-transform: rotate(0);
+        transform: rotate(0);
+        -webkit-transition: .25s ease-in-out;
+        -moz-transition: .25s ease-in-out;
+        -o-transition: .25s ease-in-out;
+        transition: .25s ease-in-out
+    }
+
+    .hmb span:nth-child(1) {
+        top: 0
+    }
+
+    .hmb span:nth-child(2),
+    .hmb span:nth-child(3) {
+        top: 12px
+    }
+
+    .hmb span:nth-child(4) {
+        top: 24px
+    }
+
+    .hmb.open span:nth-child(1) {
+        top: 18px;
+        width: 0%;
+        left: 50%
+    }
+
+    .hmb.open span:nth-child(2) {
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        transform: rotate(45deg)
+    }
+
+    .hmb.open span:nth-child(3) {
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        top: 13px
+    }
+
+    .hmb.open span:nth-child(4) {
+        top: 18px;
+        width: 0%;
+        left: 50%
+    }
+
+    .mob-menu {
+        position: absolute;
+        z-index: 10;
+        top: 5px;
+        right: 0;
+        width: 55px;
+        height: 50px;
+        overflow: hidden
+    }
+
+    .menu {
+        position: fixed;
+        display: none;
+        width: 100%;
+        height: 100%;
+        top: 45px;
+        left: 0
+    }
+
+    .menu ul {
+        background: #8f1414
+    }
+
+    .menu ul li {
+        display: block
+    }
+
+    .menu ul li a {
+        line-height: 45px
+    }
+
+    main {
+        margin-top: 48px
+    }
+
+    .raorba-logo {
+        width: 200px
+    }
+
+    .intro h1 {
+        font-size: 30px
+    }
+
+    .conf-img {
+        width: 36%
+    }
+
+    .easy-chair {
+        padding-left: 0
+    }
+
+    .easy-chair h3 {
+        font-size: 25px
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .raorba {
+        padding: 0 15px
+    }
+
+    .sub-heading img {
+        width: 40px
+    }
+
+    .easy-chair h3 {
+        font-size: 25px
+    }
+
+    .sub-heading h2 {
+        font-size: 26px
+    }
+
+    .easy-chair h3 {
+        font-size: 19px
+    }
+
+    .confrence {
+        width: 100%
+    }
+
+    .count-wrap h1 {
+        text-align: center
+    }
+
+    .start-count {
+        justify-content: space-evenly
+    }
+
+    .conf-img {
+        display: block;
+        position: relative;
+        margin: 0 auto;
+        width: 80%
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .raorba-logo {
+        width: 175px
+    }
+
+    .bvb-logo {
+        width: 100%;
+        margin: 25px 0;
+        text-align: center
+    }
+
+    .raorba {
+        text-align: center
+    }
+
+    .bvb-logo img {
+        width: 40%
+    }
+
+    .confrence {
+        padding: 40px 0
+    }
+
+    .count-wrap h1 {
+        font-size: 22px
+    }
+
+    .counts span {
+        font-size: 44px
+    }
+
+    .counts p {
+        font-size: 12px
+    }
+}
