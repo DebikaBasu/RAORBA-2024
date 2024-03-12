@@ -74,7 +74,7 @@ main {
 
 .intro {
     position: relative;
-    background-image: url(../assets/instructions-log.jpg);
+    background-image: url(../assets/4.jpeg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -87,7 +87,7 @@ main {
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba(255, 255, 255, 0.5); 
+    background: rgba(209, 197, 197, 0.3); 
 }
 
 .raorba-logo {
@@ -103,13 +103,22 @@ main {
     filter: brightness(180%) contrast(180%); 
 }
 
-.intro h1 {
-    font-weight: 400
+.intro h1 span {
+    font-weight: bold;
+    font-size: 3rem; /* Increased font size for emphasis */
+    color: #380a9b; /* Trendy blue color */
+    text-shadow: 2px 2px 6px rgba(12, 5, 68, 0.5); /* Enhanced text shadow for depth */
+    text-transform: uppercase; /* Uppercase text */
+    letter-spacing: 2px; /* Add letter spacing for better readability */
+    font-family: Arial, sans-serif; /* Choose a versatile font family */
 }
+
+
+
 
 .intro h1 span {
     font-weight: 600;
-    color: #0084e3
+    color: #090825
 }
 
 .started {
@@ -118,7 +127,7 @@ main {
 
 .started p {
     font-size: 23px;
-    color: #0084e3
+    color: #090825
 }
 
 a.btn-started {
