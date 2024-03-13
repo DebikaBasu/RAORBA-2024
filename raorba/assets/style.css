@@ -28,12 +28,12 @@
 }
 
 .site-logo {
-    color: #fff;
+    color: #021538;
     font-size: 25px
 }
 
 nav {
-    background-color: #021538;
+    background-color: #fff;
 }
 
 .nav-content {
@@ -52,7 +52,7 @@ nav {
 }
 
 .menu ul li a {
-    color: #fff;
+    color: #021538;
     text-decoration: none;
     font-weight: 300;
     font-size: 15px;
@@ -68,13 +68,16 @@ li.nav-item.selected {
     padding-left: 7px
 }
 
+.site-logo a strong {
+    color: #021538;
+}
+
 main {
     margin-top: 54px
 }
 
 .intro {
     position: relative;
-    background-image: url(../assets/4.jpeg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -87,12 +90,20 @@ main {
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba(209, 197, 197, 0.3); 
+    background: #021538;
+    /* background: rgba(209, 197, 197, 0.3);  */
 }
 
 .raorba-logo {
     width: 240px;
-    filter: brightness(80%);
+    filter: invert(1);
+    float: left;
+}
+
+.bvb-orsi-logo {
+    width: 220px;
+    filter: invert(1);
+    float: right;
 }
 
 .bvb-logo {
@@ -115,7 +126,7 @@ main {
 
 .intro h1 span {
     font-weight: 600;
-    color: #090825
+    color: #fff;
 }
 
 .started {
@@ -125,7 +136,7 @@ main {
 .started p {
     font-size: 23px;
     font-weight: bold;
-    color: #e00909
+    color: #55aeee;
     
 }
 
@@ -556,7 +567,7 @@ table.tbl-regs th:first-child {
     }
 
     .raorba-logo {
-        width: 200px
+        width: 200px;
     }
 
     .intro h1 {
@@ -619,7 +630,7 @@ table.tbl-regs th:first-child {
 
 @media only screen and (max-width:500px) {
     .raorba-logo {
-        width: 175px
+        width: 175px;
     }
 
     .bvb-logo {
