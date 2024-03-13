@@ -113,9 +113,6 @@ main {
     font-family: Arial, sans-serif; /* Choose a versatile font family */
 }
 
-
-
-
 .intro h1 span {
     font-weight: 600;
     color: #090825
@@ -127,7 +124,9 @@ main {
 
 .started p {
     font-size: 23px;
-    color: #090825
+    font-weight: bold;
+    color: #e00909
+    
 }
 
 a.btn-started {
