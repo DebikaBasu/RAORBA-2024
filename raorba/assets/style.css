@@ -663,3 +663,13 @@ table.tbl-regs th:first-child {
         font-size: 12px
     }
 }
+
+.strike-date {
+    text-decoration: line-through;
+    text-decoration-color: red;
+    color: red;
+}
+
+.bi-arrow-right {
+    color: #021538;
+}
