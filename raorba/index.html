@@ -58,7 +58,7 @@
 
 <body class="home">
     <div class="loader"><img loading="lazy" src="assets/raorba-logo.png" class="img-load" alt="loader"></div>
-    <header class="header fixed-top" id="fixtop" style="background-color: #333;">
+    <header class="header fixed-top" id="fixtop" style="background-color: rgb(54, 4, 4);">
         <nav>
             <div class="container">
                 <div class="row nav-content" style="margin-left: 8px; margin-right: 8px;">
@@ -86,9 +86,15 @@
                 </div>
             </div>
         </nav>
+         <!-- Marquee line -->
+         <marquee behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();">
+            <div class="marquee-line">
+                <p>Paper submission deadline is extended up to 15th May 2024. <span class="separator">|</span> <strong>RAORBA 2024 is now in Hybrid Mode</strong></p>
+            </div>
+        </marquee>       
     </header>
     
-    
+   
     
 
     <main>
@@ -100,9 +106,9 @@
                             style="width: 290px; height: auto;"
                             alt="International Conference on Current Research in Engineering and Technology 2022 logo" />
                         <img data-src="assets/ORSI-logo.png" alt="ORSI-logo" class="img-fluid bvb-orsi-logo lazy"
-                            style="width: 140px; height: auto; margin-left: 30px; padding-top: 15px;" />
+                            style="width: 140px; height: auto; margin-left: 30px; padding-top: 46px;" />
                         <img data-src="assets/bimskol-logo.png" alt="bvb-logo" class="img-fluid bvb-orsi-logo lazy"
-                            style="width: 150px; height: auto; margin-right: 10px;" />
+                            style="width: 150px; height: auto; margin-right: 10px;padding-top: 46px;" />
                     </div>
                     <div class="col-sm-12" data-aos="fade-in">
                         <div class="container">
@@ -420,45 +426,46 @@
                         </div>
                     </div>
                     <div class="col-sm-12 pt-3" data-aos="fade-down" data-aos-duration="1200">
-                        <p class="bullet mb-1 text-muted"><span class="call-for-paper-txt">If an author has got more
-                                than one accepted paper, each paper has also to be registered</span></p>
-                        <p class="bullet mb-1 text-muted"><b>Payment Methods:</b> <span
-                                class="call-for-paper-txt">NEFT/RTGS/ Net transfer (No credit card payment
-                                method)</span></p>
-                                <div class="pl-4" style="font-family: Arial, sans-serif; color: #333; line-height: 1.5;">
-                                    <p class="font-weight-bold mb-1" style="font-size: 16px;">
-                                        <span style="color: #007bff;">Account Name:</span> RAORBA 2024
-                                    </p>
-                                    <p class="font-weight-bold mb-1" style="font-size: 16px;">
-                                        <span style="color: #007bff;">Bank Name:</span> Indian Bank
-                                    </p>
-                                    <p class="font-weight-bold mb-1" style="font-size: 16px;">
-                                        <span style="color: #007bff;">IFSC Code:</span> IDIB000G005
-                                    </p>
-                                    <p class="font-weight-bold mb-1" style="font-size: 16px;">
-                                        <span style="color: #007bff;">Account No.:</span> 77733 49825
-                                    </p>                            
-                                    <p class="font-weight-bold" style="font-size: 16px;">
-                                        <span style="color: #007bff;">Branch Name:</span> Ekdalia
-                                    </p>
-                                </div>
-                                
-                        <p class="bullet mb-1 text-muted" style="text-align: justify;"><span
-                                class="call-for-paper-txt">If you are using NEFT/RTGS/
-                                Net transfer please make sure, at least Paper ID is clearly mentioned in the Funds
-                                Transfer Application.</span></p>
-                        <p class="bullet mb-1 text-muted" style="text-align: justify;"><span
-                                class="call-for-paper-txt">Registration process fee
-                                shall not be refunded after submission of camera ready paper and online
-                                registration.</span></p>
-                        <p class="bullet mb-1 text-muted" style="text-align: justify;"><span
-                                class="call-for-paper-txt">Students (UG/PG Students and
-                                only Full time Research/PhD Scholars) have to submit their scanned copy of the ID card
-                                along with the Registration form to avail the deduction.</span>
+                        <p class="bullet mb-1 text-muted">
+                            <span class="call-for-paper-txt">If an author has got more than one accepted paper, each paper has also to be registered</span>
+                        </p>
+                        <p class="bullet mb-1 text-muted">
+                            <b>Payment Methods:</b>
+                            <span class="call-for-paper-txt">NEFT/RTGS/ Net transfer (No credit card payment method)</span>
+                        </p>
+                        <div class="bank-details" style="padding-left: 10px;">
+                            <div class="bank-details-item">
+                                <span class="font-weight-bold" style="color: #007bff;">Account Name:</span> RAORBA 2024
+                            </div>
+                            <div class="bank-details-item">
+                                <span class="font-weight-bold" style="color: #007bff;">Account No.:</span> 77733 49825
+                            </div>
+                            <div class="bank-details-item">
+                                <span class="font-weight-bold" style="color: #007bff;">Bank Name:</span> Indian Bank
+                            </div>
+                            <div class="bank-details-item">
+                                <span class="font-weight-bold" style="color: #007bff;">Branch Name:</span> Ekdalia
+                            </div>
+                            <div class="bank-details-item">
+                                <span class="font-weight-bold" style="color: #007bff;">IFSC Code:</span> IDIB000G005
+                            </div>
+                        </div>
+                    
+                        <p class="bullet mb-1 text-muted" style="text-align: justify;">
+                            <span class="call-for-paper-txt">If you are using NEFT/RTGS/ Net transfer please make sure, at least Paper ID is clearly mentioned in the Funds Transfer Application.</span>
+                        </p>
+                        <p class="bullet mb-1 text-muted" style="text-align: justify;">
+                            <span class="call-for-paper-txt">Registration process fee shall not be refunded after submission of camera ready paper and online registration.</span>
+                        </p>
+                        <p class="bullet mb-1 text-muted" style="text-align: justify;">
+                            <span class="call-for-paper-txt">Students (UG/PG Students and only Full time Research/PhD Scholars) have to submit their scanned copy of the ID card along with the Registration form to avail the deduction.</span>
                         </p>
                     </div>
+                    
+                    
                 </div>
-        </section>
+            </div>
+        </section>                    
         <section id="committee" class="com-pad committee">
             <div class="container">
                 <div class="sub-heading d-flex align-items-center mb-3">
@@ -562,17 +569,18 @@
                         <div style="margin-top: 20px;">
                             <strong class="bold-blue" style="color: #007bff; font-size: 20px;">Organizing Committee Member</strong>
                             <!-- <p style="font-weight: bold; color: red;">Updated Soon..</p> -->
-                            <p class="text-muted"><span class="font-weight-bold" style="color: #212529;">Prof Semanti Debroy Sen,</span><span class="text-muted"> BIMS,Kolkata, India</span></p>
-                            <p class="text-muted"><span class="font-weight-bold" style="color: #212529;">Dr. Biswarup Chatterjee,</span><span class="text-muted"> BIMS,Kolkata, India</span></p>
-                            <p class="text-muted" ><span class="font-weight-bold" style="color: #212529;">Prof. Niloy Sarkar,</span><span class="text-muted"> BIMS,Kolkata, India</span></p>
-                            <p class="text-muted" ><span class="font-weight-bold" style="color: #212529;">Prof. Joydeep Mukherjee,</span><span class="text-muted"> BIMS,Kolkata, India</span></p>
-                            <p class="text-muted"><span class="font-weight-bold" style="color: #212529;">Dr. Poulomi Bhattacharjee,</span><span class="text-muted"> BIMS,Kolkata, India</span></p>
-                            <p class="text-muted"><span class="font-weight-bold" style="color: #212529;">Dr. Biman Maity,</span><span class="text-muted"> BIMS,Kolkata, India</span></p>
-                            <p class="text-muted"><span class="font-weight-bold" style="color: #212529;">Prof. Arindra Mukherjee,</span><span class="text-muted"> BIMS,Kolkata, India</span></p>
-                            <p class="text-muted"><span class="font-weight-bold" style="color: #212529;">Dr. Madhumita Roy Sen,</span><span class="text-muted"> BIMS,Kolkata, India</span></p>
-                            <p class="text-muted"><span class="font-weight-bold" style="color: #212529;">Dr. Sudipta Kr. Ghosh,</span><span class="text-muted"> BIMS,Kolkata, India</span></p>
-                            <p class="text-muted"><span class="font-weight-bold" style="color: #212529;">Dr. Payel Ghosh,</span><span class="text-muted"> Raidighi College, India</span></p>
+                            <p class="text-muted" style="margin-bottom: 5px;"><span class="font-weight-bold" style="color: #212529;">Prof. Semanti Debroy Sen,</span><span class="text-muted"> BIMS,Kolkata, India</span></p>
+                            <p class="text-muted" style="margin-bottom: 5px;"><span class="font-weight-bold" style="color: #212529;">Dr. Biswarup Chatterjee,</span><span class="text-muted"> BIMS,Kolkata, India</span></p>
+                            <p class="text-muted" style="margin-bottom: 5px;"><span class="font-weight-bold" style="color: #212529;">Prof. Niloy Sarkar,</span><span class="text-muted"> BIMS,Kolkata, India</span></p>
+                            <p class="text-muted" style="margin-bottom: 5px;"><span class="font-weight-bold" style="color: #212529;">Prof. Joydeep Mukherjee,</span><span class="text-muted"> BIMS,Kolkata, India</span></p>
+                            <p class="text-muted" style="margin-bottom: 5px;"><span class="font-weight-bold" style="color: #212529;">Dr. Poulomi Bhattacharjee,</span><span class="text-muted"> BIMS,Kolkata, India</span></p>
+                            <p class="text-muted" style="margin-bottom: 5px;"><span class="font-weight-bold" style="color: #212529;">Dr. Biman Maity,</span><span class="text-muted"> BIMS,Kolkata, India</span></p>
+                            <p class="text-muted" style="margin-bottom: 5px;"><span class="font-weight-bold" style="color: #212529;">Prof. Arindra Mukherjee,</span><span class="text-muted"> BIMS,Kolkata, India</span></p>
+                            <p class="text-muted" style="margin-bottom: 5px;"><span class="font-weight-bold" style="color: #212529;">Dr. Madhumita Roy Sen,</span><span class="text-muted"> BIMS,Kolkata, India</span></p>
+                            <p class="text-muted" style="margin-bottom: 5px;"><span class="font-weight-bold" style="color: #212529;">Dr. Sudipta Kr. Ghosh,</span><span class="text-muted"> BIMS,Kolkata, India</span></p>
+                            <p class="text-muted" style="margin-bottom: 5px;"><span class="font-weight-bold" style="color: #212529;">Dr. Payel Ghosh,</span><span class="text-muted"> Raidighi College, India</span></p>
                         </div>
+                        
                         
                         <!-- <div>
                             <strong class="bold-blue">Publicity Committee</strong>

@@ -24,7 +24,7 @@
     transform: -moz-translate(0, -50%);
     transform: -ms-translate(0, -50%);
     position: relative;
-    margin: 0 auto
+    margin: 0 auto;
 }
 
 .site-logo {
@@ -62,6 +62,54 @@ nav {
 li.nav-item.selected {
     border-bottom: 3px solid #fff
 }
+
+.bank-details {
+    border: 1px #ccc;
+    border-radius: 5px;
+    padding: 15px;
+   
+}
+
+.bank-details-item {
+    margin-bottom: 10px;
+}
+
+
+.marquee-line {
+   
+    color: yellow;
+    text-align: center;
+    padding: 3px 0; 
+    overflow: hidden; 
+    transition: all 0.1s ease-in-out;
+}
+
+.marquee-line p {
+    margin: 0;
+    font-size: 16px; 
+    white-space: nowrap; 
+}
+
+.separator {
+    margin: 0 10px; 
+    color: #fff;
+}
+.marquee-text {
+    display: inline-block;
+    animation: marquee 20s linear infinite; 
+}
+
+@keyframes marquee {
+    from {
+        transform: translateX(0%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+
+
 
 .site-logo span {
     font-size: 12px;
