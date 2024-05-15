@@ -75,8 +75,7 @@ li.nav-item.selected {
 }
 
 
-.marquee-line {
-   
+.marquee-line {   
     color: yellow;
     text-align: center;
     padding: 3px 0; 
@@ -178,7 +177,7 @@ main {
 }
 
 .started {
-    margin: 60px 0
+    margin: 60px 0;
 }
 
 .started p {
